@@ -1,0 +1,7 @@
+.nyc_output
+coverage
+lib
+node_modules
+mobx-jsonpatch.module.js
+mobx-jsonpatch.umd.js
+docs

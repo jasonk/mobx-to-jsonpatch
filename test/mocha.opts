@@ -1,0 +1,6 @@
+--require ts-node/register
+--require source-map-support/register
+--recursive
+--require test/mocha-setup
+--timeout 5000
+test/**/*.ts

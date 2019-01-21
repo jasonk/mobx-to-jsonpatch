@@ -1,0 +1,14 @@
+{
+  "version": "1.8.10",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "noEmit": true,
+    "rootDir": ".",
+    "lib": [ "es5", "es2015", "es2017" ]
+  },
+  "include": [ "**/*.ts" ],
+  "exclude": [ "node_modules" ]
+}
