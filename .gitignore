@@ -2,6 +2,6 @@
 coverage
 lib
 node_modules
-mobx-jsonpatch.module.js
-mobx-jsonpatch.umd.js
+mobx-to-jsonpatch.module.js
+mobx-to-jsonpatch.umd.js
 docs

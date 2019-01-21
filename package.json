@@ -1,12 +1,12 @@
 {
-  "name": "mobx-jsonpatch",
-  "version": "0.0.0",
+  "name": "mobx-to-jsonpatch",
+  "version": "1.0.0",
   "description": "Turn MobX mutations into JSONPatch instructions",
-  "main": "mobx-jsonpatch.umd.js",
-  "module": "mobx-jsonpatch.module.js",
-  "jsnext:main": "mobx-utils.module.js",
-  "react-native": "mobx-utils.module.js",
-  "typings": "lib/mobx-jsonpatch.d.ts",
+  "main": "mobx-to-jsonpatch.umd.js",
+  "module": "mobx-to-jsonpatch.module.js",
+  "jsnext:main": "mobx-to-jsonpatch.module.js",
+  "react-native": "mobx-to-jsonpatch.module.js",
+  "typings": "lib/mobx-to-jsonpatch.d.ts",
   "sideEffects": false,
   "scripts": {
     "test": "nyc mocha",
@@ -17,14 +17,11 @@
   },
   "keywords": [
     "mobx",
-    "mobx-utils",
     "jsonpatch"
   ],
   "author": "Jason Kohles <email@jasonkohles.com>",
   "license": "MIT",
-  "dependencies": {
-    "mobx-utils": ">=5.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.5",
@@ -46,15 +43,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jasonk/mobx-jsonpatch.git"
+    "url": "https://github.com/jasonk/mobx-to-jsonpatch.git"
   },
   "bugs": {
-    "url": "https://github.com/jasonk/mobx-jsonpatch/issues"
+    "url": "https://github.com/jasonk/mobx-to-jsonpatch/issues"
   },
   "files": [
     "lib/",
-    "mobx-jsonpatch.umd.js",
-    "mobx-jsonpatch.module.js"
+    "mobx-to-jsonpatch.umd.js",
+    "mobx-to-jsonpatch.module.js"
   ],
-  "unpkg": "./mobx-jsonpatch.umd.js"
+  "unpkg": "./mobx-to-jsonpatch.umd.js"
 }

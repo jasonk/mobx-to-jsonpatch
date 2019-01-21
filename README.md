@@ -1,4 +1,4 @@
-# mobx-jsonpatch
+# mobx-to-jsonpatch
 
 Watch a [MobX](https://mobx.js.org/) observable and compile a
 [JSON Patch](http://jsonpatch.com/) document that represents
@@ -6,14 +6,14 @@ the changes made to the observable.
 
 # Installation
 
-NPM: `npm install mobx-jsonpatch`
+NPM: `npm install mobx-to-jsonpatch`
 
-CDN: <https://unpkg.com/mobx-jsonpatch>
+CDN: <https://unpkg.com/mobx-to-jsonpatch>
 
 # Usage
 
     import { observable } from 'mobx'
-    import { Observer } from 'mobx-jsonpatch'
+    import { Observer } from 'mobx-to-jsonpatch'
 
     const obj = observable( { name : 'my boring object' } )
 
