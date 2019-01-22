@@ -9,7 +9,7 @@
     "outDir": "../lib/",
     "noImplicitAny": true,
     "moduleResolution": "node",
-    "experimentalDecorators": false,
+    "experimentalDecorators": true,
     "lib": [ "es5", "es2015", "es2017" ]
   },
   "exclude": [ "node_modules" ]

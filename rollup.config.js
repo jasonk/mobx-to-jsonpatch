@@ -6,13 +6,13 @@ module.exports = {
       name    : 'mobxJSONPatch',
       format  : 'umd',
       globals : { mobx : 'mobx' },
-      file    : 'mobx-to-jsonpatch.module.js',
+      file    : 'mobx-to-jsonpatch.umd.js',
     },
     {
       name    : 'mobxJSONPatch',
       format  : 'es',
       globals : { mobx : 'mobx' },
-      file    : 'mobx-to-jsonpatch.umd.js',
+      file    : 'mobx-to-jsonpatch.module.js',
     },
   ],
 }
