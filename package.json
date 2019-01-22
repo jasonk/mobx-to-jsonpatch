@@ -1,6 +1,6 @@
 {
   "name": "mobx-to-jsonpatch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Turn MobX mutations into JSONPatch instructions",
   "main": "mobx-to-jsonpatch.umd.js",
   "module": "mobx-to-jsonpatch.module.js",
